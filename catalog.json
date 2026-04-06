@@ -1,57 +1,16 @@
 {
   "movies": {
-    "trending": [
-      {
-        "id": "movie_1",
-        "title": "Big Buck Bunny",
-        "plot": "Test movie.",
-        "thumb": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg",
-        "fanart": "https://peach.blender.org/wp-content/uploads/bbb-splash.png",
-        "year": 2008,
-        "genre": "Animation",
-        "duration": 596,
-        "stream_url": "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/720/Big_Buck_Bunny_720_10s_1MB.mp4",
-        "type": "movie",
-        "mediatype": "movie"
-      }
-    ],
+    "trending": [],
     "popular": [],
     "recent": []
   },
   "shows": {
-    "trending": [
-      {
-        "id": "show_1",
-        "title": "Demo Show",
-        "plot": "Test TV show.",
-        "thumb": "https://via.placeholder.com/300x450.png?text=Demo+Show",
-        "fanart": "https://via.placeholder.com/1280x720.png?text=Demo+Show+Fanart",
-        "year": 2024,
-        "genre": "Drama",
-        "type": "show",
-        "seasons": [
-          {
-            "season_number": 1,
-            "episodes": [
-              {
-                "id": "ep_1",
-                "title": "Episode 1",
-                "plot": "Pilot episode.",
-                "thumb": "https://via.placeholder.com/300x450.png?text=Episode+1",
-                "fanart": "https://via.placeholder.com/1280x720.png?text=Episode+1",
-                "year": 2024,
-                "genre": "Drama",
-                "duration": 1200,
-                "stream_url": "https://media.w3.org/2010/05/bunny/trailer.mp4",
-                "type": "episode",
-                "mediatype": "episode"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "trending": [],
     "popular": [],
     "recent": []
+  },
+  "genres": {
+    "Animation": ["movie_1"],
+    "Drama": ["movie_2"]
   }
 }
